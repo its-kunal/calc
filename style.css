@@ -37,7 +37,7 @@ nav {
     flex-direction: column;
     row-gap: 30px;
     background-color: aliceblue;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .input-grp {
@@ -64,11 +64,23 @@ button {
     padding: 1% 5%;
 }
 
-.gird{
+.grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 1fr) repeat(1, 2fr);
+    column-gap: 10px;
+    row-gap: 9px;
 }
 
-.grid-btn{
-    grid-column: 1  ;
+.grid-btn {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px -2px transparent;
+}
+
+.grid-btn:hover{
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.21);
+    border: 1px solid black;
 }
