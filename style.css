@@ -1,14 +1,4 @@
-@keyframes mtoin {
-    0% {
-        transform: translateY(-10px);
-    }
-
-    100% {
-        transform: translateY(10px);
-    }
+*{
+    font-family: 'poppins';
 }
 
-#calc-container:hover {
-    animation: mtoin 1s ease alternate;
-    animation-iteration-count: 2.5;
-}
